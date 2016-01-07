@@ -35,7 +35,7 @@ int main(void){
 		Read("Команда: ", cmd);
 		switch(cmd){
 			case 1:
-				Read("Введите кол-во елементов: ", cmd);
+				Read("Введите кол-во элементов: ", cmd);
 				T = new Tree(cmd);
 			break;
 			case 2:
@@ -45,7 +45,7 @@ int main(void){
 				T->DrawTree();
 			break;
 			case 4:
-				Read("Введите искомый эелемент: ", cmd);
+				Read("Введите искомый элемент: ", cmd);
 				T->findElement(cmd);
 			break;
 			case 5:
