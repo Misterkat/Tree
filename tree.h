@@ -77,8 +77,6 @@ private:
 		return Depth;
 	}
 
-	void 
-
 //################################################
 	void RecursiveBalanceTree(TreeType* TP){
 		if((ITD(TP->left) == 2) && (ITD(TP->right->left) <= ITD(TP->right->right))){
@@ -506,7 +504,7 @@ public:
 	}
 
 	void BalanceTree(){
-		RecursiveBalanceTree(TreeRoot);
+		//RecursiveBalanceTree(TreeRoot);
 	}
 
 	void DrawTree(){
