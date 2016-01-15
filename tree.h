@@ -1,3 +1,8 @@
+/* 
+*	Encoding Cyrillic Windows-1251
+*	Compile with -std=c++11
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>
